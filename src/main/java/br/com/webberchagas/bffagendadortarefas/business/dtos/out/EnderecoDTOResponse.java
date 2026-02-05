@@ -1,4 +1,4 @@
-package br.com.webberchagas.bffagendadortarefas.business.dtos;
+package br.com.webberchagas.bffagendadortarefas.business.dtos.out;
 
 import lombok.*;
 
@@ -7,7 +7,7 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class EnderecoDTO {
+public class EnderecoDTOResponse {
 
     private Long id;
     private String rua;

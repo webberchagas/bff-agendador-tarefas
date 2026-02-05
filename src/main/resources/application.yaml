@@ -3,6 +3,10 @@ spring:
     name: bff-agendador-tarefas
 
 usuario:
-  url: http://localhost:8080/api/v1/usuario
+  url: http://localhost:8080/usuario
+
+agendador-tarefas:
+  url: http://localhost:8081/tarefas
+
 server:
   port: 8084

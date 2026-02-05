@@ -1,4 +1,4 @@
-package br.com.webberchagas.bffagendadortarefas.business.dtos;
+package br.com.webberchagas.bffagendadortarefas.business.dtos.in;
 
 import lombok.*;
 
@@ -7,7 +7,7 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class TelefoneDTO {
+public class TelefoneDTORequest {
 
     private Long id;
     private String numero;
