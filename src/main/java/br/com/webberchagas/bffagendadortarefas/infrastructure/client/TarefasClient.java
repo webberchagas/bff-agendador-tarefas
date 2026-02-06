@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.time.LocalDateTime;
 import java.util.List;
 
-@FeignClient(name = "ms-agendador-tarefas", url = "${agendador-tarefas.url}")
+@FeignClient(name = "ms-agendador-tarefas", url = "${agendador.url}")
 public interface TarefasClient {
 
     @PostMapping

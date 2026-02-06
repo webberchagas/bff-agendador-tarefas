@@ -5,8 +5,11 @@ spring:
 usuario:
   url: http://localhost:8080/usuario
 
-agendador-tarefas:
+agendador:
   url: http://localhost:8081/tarefas
 
+notificacao:
+  url: http://localhost:8082/email
+
 server:
-  port: 8084
+  port: 8083

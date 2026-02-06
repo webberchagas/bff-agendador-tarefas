@@ -21,7 +21,7 @@ public interface UsuarioClient {
     UsuarioDTOResponso registerNewUser(@RequestBody UsuarioDTORequest usuarioDTO);
 
     @PostMapping("/login")
-    String login(@RequestBody LoginRequestDTO usuarioDto);
+    String login(@RequestBody LoginRequestDTO loginDto);
 
     @DeleteMapping("/{email}")
     void deletarUsuarioPorEmail(@PathVariable String email,
